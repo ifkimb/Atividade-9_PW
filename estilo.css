@@ -1,0 +1,124 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    line-height: 1.6;
+}
+ 
+/* Estilo do Cabeçalho */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+ 
+.icon {
+    width: 50px;
+    height: 50px;
+}
+ 
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+ 
+/* Estilo Principal */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+ 
+/* Estilo Geral para os Exemplos */
+.example {
+    background-color: #008080;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+.example h2 {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+ 
+/* Exemplo: Block */
+.block-container {
+    width: 100%;
+    display: block;
+}
+ 
+.block-item {
+    width: 100%;
+    height: 40px;
+    background-color: #d9d9d9;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+ 
+.block-item:last-child {
+    margin-bottom: 0;
+}
+ 
+/* Exemplo: Inline */
+.inline-container {
+    width: 100%;
+    text-align: center;
+}
+ 
+.inline-item {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #d9d9d9;
+    margin: 5px;
+    border-radius: 4px;
+}
+ 
+/* Exemplo: Inline-Block */
+.inline-block-container {
+    width: 100%;
+    text-align: center;
+}
+ 
+.inline-block-item {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #d9d9d9;
+    margin: 5px;
+    border-radius: 4px;
+}
+ 
+/* Exemplo: None */
+.none-container {
+    width: 100%;
+    text-align: center;
+    display: none; /* Oculta o conteúdo */
+}
